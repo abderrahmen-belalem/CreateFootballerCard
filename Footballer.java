@@ -14,7 +14,7 @@ class Footballer extends Man {
         super("", "", "", 0, 0);
     }
 
-    Footballer(String firstName, String lastName, String birthdayDate, double height, int weight) {
+    Footballer(String firstName, String lastName, String birthdayDate, int height, int weight) {
         super(firstName, lastName, birthdayDate, height, weight);
         this.pace = pace;
         this.dribbling = dribbling;
@@ -91,11 +91,10 @@ class Footballer extends Man {
         System.out.println("Enter the weight : ");
         this.weight = scanner.nextInt();
         System.out.println("Enter the Height : ");
-        this.height = scanner.nextDouble();
+        this.height = scanner.nextInt();
         scanner.nextLine();
         System.out.println("Enter the Position : ");
         this.position = scanner.nextLine();
-        scanner.nextLine();
         System.out.println("Enter the Pace : ");
         this.pace = scanner.nextInt();
         System.out.println("Enter the Dribbling :");
