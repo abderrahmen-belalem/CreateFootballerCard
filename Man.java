@@ -2,10 +2,10 @@ public class Man {
     String firstName;
     String lastName;
     String birthdayDate;
-    double height;
+    int height;
     int weight;
 
-    Man(String firstName, String lastName, String birthdayDate, double height, int weight) {
+    Man(String firstName, String lastName, String birthdayDate, int height, int weight) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthdayDate = birthdayDate;
@@ -42,7 +42,7 @@ public class Man {
         return height;
     }
 
-    public void setHeight(double height) {
+    public void setHeight(int height) {
         this.height = height;
     }
 
